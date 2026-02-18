@@ -10,7 +10,6 @@ checkpoint-*/
 
 # --- LLM & Model Outputs ---
 # Ignore all "checkpoint" folders created by HuggingFace/Trainers
-checkpoint-*/
 
 # Ignore specific model weight files
 adapter_model.bin
