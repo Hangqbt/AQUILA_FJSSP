@@ -1,0 +1,21 @@
+# Add this to your .gitignore file if missing:
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.png
+*.bin
+checkpoint-*/
+
+# --- LLM & Model Outputs ---
+# Ignore all "checkpoint" folders created by HuggingFace/Trainers
+checkpoint-*/
+
+# Ignore specific model weight files
+adapter_model.bin
+adapter_config.json
+
+# Ignore training states
+trainer_state.json
+training_args.bin
