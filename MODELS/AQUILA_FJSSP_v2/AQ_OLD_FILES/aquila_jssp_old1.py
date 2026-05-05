@@ -81,7 +81,7 @@ class Aquila_Optimizer_FJSSP:
         for i in range(self.T0):
             OS_discrete[ranked_indices[i]] = self.standard_OS_list[i]
 
-        # Return combined discrete chromosome exactly as Decode.py expects
+        # Return combined discrete chromosome exactly as Decode_GA.py expects
         return np.hstack((MS_discrete, OS_discrete))
 
     def evaluate_fitness(self, X_cont):

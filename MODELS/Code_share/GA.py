@@ -1,7 +1,7 @@
 import itertools
 import random
 import numpy as np
-from Decode import Decode
+from Decode_GA import Decode
 
 class GA():
     def __init__(self,
