@@ -11,7 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Import the adapted Aquila Optimizer
-from aquila_jssp import Aquila_Optimizer_FJSSP
+from aquila_jssp_check import Aquila_Optimizer_FJSSP
 from Instance import *  # assumes: get_instance, list_available_instances, DEFAULT_DATA_DIR
 from Decode import Decode
 
