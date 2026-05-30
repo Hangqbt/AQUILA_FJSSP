@@ -7,6 +7,8 @@
 *.png
 *.bin
 checkpoint-*/
+DOCUMENTATION/
+OLD_EXPERIMENTS/
 
 # --- LLM & Model Outputs ---
 # Ignore all "checkpoint" folders created by HuggingFace/Trainers
