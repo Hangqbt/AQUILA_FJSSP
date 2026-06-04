@@ -56,4 +56,4 @@ def generate_latex_tables(excel_file, metric_name):
 
 if __name__ == "__main__":
     # We are running this specifically for your Time document!
-    generate_latex_tables("DAO_vs_All_Time_Wilcoxon.xlsx", "Computational Time")
+    generate_latex_tables("OLD/DAO_vs_All_Time_Wilcoxon.xlsx", "Computational Time")

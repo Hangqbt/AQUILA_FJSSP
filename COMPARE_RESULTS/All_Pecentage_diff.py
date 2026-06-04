@@ -60,8 +60,8 @@ def calculate_and_export_percentages(excel_file, metric_name, writer):
 
 if __name__ == "__main__":
     # The two Excel files we generated previously
-    fitness_file = "DAO_vs_All_Fitness_Wilcoxon.xlsx"
-    time_file = "DAO_vs_All_Time_Wilcoxon.xlsx"
+    fitness_file = "OLD/DAO_vs_All_Fitness_Wilcoxon.xlsx"
+    time_file = "OLD/DAO_vs_All_Time_Wilcoxon.xlsx"
 
     output_excel = "DAO_Percentage_Differences.xlsx"
 

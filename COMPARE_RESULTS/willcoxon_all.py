@@ -7,7 +7,7 @@ def run_unified_comparison(dao_file, competitor_files, output_excel, alpha=0.05)
     """
     Compares DAO against multiple algorithms and exports results to a multi-sheet Excel file.
 
-    Perspective (DAO):
+    Perspective (DAO Baseline):
       "+" : DAO is significantly better (smaller value)
       "-" : DAO is significantly worse (larger value)
       "=" : No significant difference
@@ -121,21 +121,29 @@ def run_unified_comparison(dao_file, competitor_files, output_excel, alpha=0.05)
 if __name__ == "__main__":
 
     # --- FITNESS SETUP ---
+    # Baseline: AO (DAO w/hybrid)
     dao_fitness = "ao_seedwise_fitness_results.csv"
+
+    # Updated Competitors List
     competitors_fitness = {
+        "AO_no_hybrid": "ao_no_hybrid_seedwise_fitness_results.csv",
         "Original_GA": "ga_seedwise_fitness_results.csv",
         "GA_TABU": "ga_tabu_seedwise_fitness_results.csv",
         "ABC": "abc_seedwise_fitness_results.csv",
-        "GWO": "gwo_seedwise_fitness_results.csv"
+        "ABC_TABU": "abc_tabu_seedwise_fitness_results.csv"
     }
 
     # --- TIME SETUP ---
+    # Baseline: AO (DAO w/hybrid)
     dao_time = "ao_seedwise_time_results.csv"
+
+    # Updated Competitors List
     competitors_time = {
+        "AO_no_hybrid": "ao_no_hybrid_seedwise_time_results.csv",
         "Original_GA": "ga_seedwise_time_results.csv",
         "GA_TABU": "ga_tabu_seedwise_time_results.csv",
         "ABC": "abc_seedwise_time_results.csv",
-        "GWO": "gwo_seedwise_time_results.csv"
+        "ABC_TABU": "abc_tabu_seedwise_time_results.csv"
     }
 
     # --- RUN EXECUTIONS ---

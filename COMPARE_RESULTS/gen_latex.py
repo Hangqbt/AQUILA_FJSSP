@@ -54,7 +54,7 @@ def generate_latex_tables(excel_file, metric_name):
 
 if __name__ == "__main__":
     # Run this for the Fitness Excel doc first
-    generate_latex_tables("DAO_vs_All_Fitness_Wilcoxon.xlsx", "Fitness")
+    generate_latex_tables("OLD/DAO_vs_All_Fitness_Wilcoxon.xlsx", "Fitness")
 
     # You can easily uncomment the line below later to run your Time tables too!
     # generate_latex_tables("DAO_vs_All_Time_Wilcoxon.xlsx", "Computational Time")
