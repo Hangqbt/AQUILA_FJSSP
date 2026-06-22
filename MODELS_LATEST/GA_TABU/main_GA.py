@@ -299,11 +299,11 @@ if __name__ == "__main__":
     print(df_seedwise_time)
 
     # Save CSV files
-    out_path_summary = Path("ga_tabu_benchmark_results.csv")
+    out_path_summary = Path("RUN_18_06_26/ga_tabu_benchmark_results_newinit.csv")
     df_results.to_csv(out_path_summary, index=False)
 
-    out_path_seedwise = Path("ga_tabu_seedwise_fitness_results.csv")
+    out_path_seedwise = Path("RUN_18_06_26/ga_tabu_seedwise_fitness_results_newinit.csv")
     df_seedwise.to_csv(out_path_seedwise, index=False)
 
-    out_path_seedwise_time = Path("ga_tabu_seedwise_time_results.csv")
+    out_path_seedwise_time = Path("RUN_18_06_26/ga_tabu_seedwise_time_results_newinit.csv")
     df_seedwise_time.to_csv(out_path_seedwise_time, index=False)

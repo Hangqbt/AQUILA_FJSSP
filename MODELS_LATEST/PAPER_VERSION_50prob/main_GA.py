@@ -1,4 +1,5 @@
 import os
+os.environ['PYTHONHASHSEED'] = str(123)
 import time
 import random
 from contextlib import redirect_stdout
@@ -263,14 +264,14 @@ if __name__ == '__main__':
     print(df_seedwise_time)
 
     # Save CSV files
-    out_path_summary = Path("ga_benchmark_results.csv")
+    out_path_summary = Path("ga_benchmark_results_newinit.csv")
     df_results.to_csv(out_path_summary, index=False)
 
-    out_path_seedwise = Path("ga_seedwise_fitness_results.csv")
+    out_path_seedwise = Path("ga_seedwise_fitness_results_newinit.csv")
     df_seedwise.to_csv(out_path_seedwise, index=False)
 
     # NEW FILE
-    out_path_seedwise_time = Path("ga_seedwise_time_results.csv")
+    out_path_seedwise_time = Path("ga_seedwise_time_results_newinit.csv")
     df_seedwise_time.to_csv(out_path_seedwise_time, index=False)
 
     print(f"\nSummary results saved to: {out_path_summary.resolve()}")

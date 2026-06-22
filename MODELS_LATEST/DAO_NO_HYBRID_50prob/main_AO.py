@@ -1,4 +1,6 @@
 import os
+# Force deterministic dictionary/set ordering across all OS processes
+os.environ['PYTHONHASHSEED'] = str(123)
 import time
 import random
 from concurrent.futures import ProcessPoolExecutor
@@ -213,13 +215,13 @@ if __name__ == '__main__':
     print(df_seedwise_time)
 
     # Save CSV files
-    out_path_summary = Path("ao_benchmark_results.csv")
+    out_path_summary = Path("ao_benchmark_results_no_hybrid_newinit.csv")
     df_results.to_csv(out_path_summary, index=False)
 
-    out_path_seedwise_fitness = Path("ao_seedwise_fitness_results.csv")
+    out_path_seedwise_fitness = Path("ao_seedwise_fitness_results_no_hybrid_newinit.csv")
     df_seedwise_fitness.to_csv(out_path_seedwise_fitness, index=False)
 
-    out_path_seedwise_time = Path("ao_seedwise_time_results.csv")
+    out_path_seedwise_time = Path("ao_seedwise_time_results_no_hybrid_newinit.csv")
     df_seedwise_time.to_csv(out_path_seedwise_time, index=False)
 
     print(f"\nSummary results saved to: {out_path_summary.resolve()}")

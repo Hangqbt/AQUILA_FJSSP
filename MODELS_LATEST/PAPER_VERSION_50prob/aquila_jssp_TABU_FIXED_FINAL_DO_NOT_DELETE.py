@@ -321,7 +321,7 @@ class Aquila_Optimizer_FJSSP:
     # Elite archive and center
     # =========================================================
     def elite_archive(self, X_MS, X_OS, fitness, k):
-        idx = np.argsort(fitness)[:k]
+        idx = np.argsort(fitness, kind='stable')[:k]
         archive_MS = [np.copy(X_MS[i]) for i in idx]
         archive_OS = [np.copy(X_OS[i]) for i in idx]
         archive_fit = [fitness[i] for i in idx]
@@ -329,7 +329,7 @@ class Aquila_Optimizer_FJSSP:
 
     def elite_center(self, X_MS, X_OS, fitness, top_k):
         top_k = max(1, min(top_k, len(fitness)))
-        elite_indices = np.argsort(fitness)[:top_k]
+        elite_indices = np.argsort(fitness, kind='stable')[:top_k]
 
         center_MS = np.zeros(self.T0, dtype=int)
         for j in range(self.T0):
