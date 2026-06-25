@@ -164,10 +164,10 @@ if __name__ == '__main__':
     random.seed(MASTER_SEED)
     np.random.seed(MASTER_SEED)
 
-    POP_SIZE = 300
+    POP_SIZE = 50
     PC = 0.85
     PM = 0.15
-    GENERATIONS = 50
+    GENERATIONS = 300
 
     instance_names = list_available_instances(DEFAULT_DATA_DIR)
     print("Available instances:", instance_names)

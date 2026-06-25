@@ -3,15 +3,15 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/MODELS_OLD/OLD_EXPERIMENTS/Aquila Optimizer (AO) Jave code/Aquila Optimizer (AO) Jave code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MODELS_OLD_16_06_26/OLD_EXPERIMENTS/Aquila Optimizer (AO) Jave code/Aquila Optimizer (AO) Jave code" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/DOCUMENTATION" />
-      <excludeFolder url="file://$MODULE_DIR$/MODELS_OLD/OLD_EXPERIMENTS/AO_version2/BEST_RESULTS" />
-      <excludeFolder url="file://$MODULE_DIR$/MODELS_OLD/OLD_EXPERIMENTS/AO_version2/CURRENT_RESULTS" />
-      <excludeFolder url="file://$MODULE_DIR$/MODELS_OLD/OLD_EXPERIMENTS/AO_version2/Data" />
-      <excludeFolder url="file://$MODULE_DIR$/MODELS_OLD/OLD_EXPERIMENTS/AO_version2/RESULTS" />
-      <excludeFolder url="file://$MODULE_DIR$/MODELS_OLD/OLD_EXPERIMENTS/AQUILA_FJSSP_v2/Shady_Sensei_Export" />
-      <excludeFolder url="file://$MODULE_DIR$/MODELS_OLD/OLD_EXPERIMENTS/AQUILA_FJSSP_v2/Visuals" />
+      <excludeFolder url="file://$MODULE_DIR$/MODELS_OLD_16_06_26/OLD_EXPERIMENTS/AO_version2/BEST_RESULTS" />
+      <excludeFolder url="file://$MODULE_DIR$/MODELS_OLD_16_06_26/OLD_EXPERIMENTS/AO_version2/CURRENT_RESULTS" />
+      <excludeFolder url="file://$MODULE_DIR$/MODELS_OLD_16_06_26/OLD_EXPERIMENTS/AO_version2/Data" />
+      <excludeFolder url="file://$MODULE_DIR$/MODELS_OLD_16_06_26/OLD_EXPERIMENTS/AO_version2/RESULTS" />
+      <excludeFolder url="file://$MODULE_DIR$/MODELS_OLD_16_06_26/OLD_EXPERIMENTS/AQUILA_FJSSP_v2/Shady_Sensei_Export" />
+      <excludeFolder url="file://$MODULE_DIR$/MODELS_OLD_16_06_26/OLD_EXPERIMENTS/AQUILA_FJSSP_v2/Visuals" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.11 (AQUILA_FJSSP)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
